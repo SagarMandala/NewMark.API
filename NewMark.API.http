@@ -1,0 +1,6 @@
+@NewMark.API_HostAddress = http://localhost:5107
+
+GET {{NewMark.API_HostAddress}}/Property/
+Accept: application/json
+
+###
