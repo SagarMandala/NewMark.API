@@ -1,4 +1,4 @@
-﻿using NewMark.API.Model;
+﻿using NewMark.API.Models;
 using System.Text.Json;
 
 namespace NewMark.API.Service
@@ -70,7 +70,7 @@ namespace NewMark.API.Service
 
         private void LogToFile(string message)
         {
-            var path = _config["Logging:LogFilePath"] ?? "blob-error-log.txt";
+            var path = "blob-error-log.txt";
             var logEntry = $"{DateTime.UtcNow:u} | {message}{Environment.NewLine}";
             Directory.CreateDirectory(Path.GetDirectoryName(path)!);
             File.AppendAllText(path, logEntry);

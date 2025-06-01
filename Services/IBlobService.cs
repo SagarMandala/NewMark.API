@@ -1,4 +1,4 @@
-﻿using NewMark.API.Model;
+﻿using NewMark.API.Models;
 
 namespace NewMark.API.Service
 {

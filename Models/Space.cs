@@ -1,4 +1,4 @@
-﻿namespace NewMark.API.Model
+﻿namespace NewMark.API.Models
 {
     public class Space
     {
